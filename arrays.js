@@ -1,30 +1,8 @@
 /*
 ====================================================
- JS ARRAYS & ARRAY-METODER – 1H LIVEKODNING
+ JS ARRAYS & ARRAY-METODER – 
 ====================================================
 
- Syfte: Ge en trygg, praktisk genomgång av vanliga array-metoder i JS
- med fokus på vad de gör, när de används och hur de påverkar originaldatan.
-
- Struktur (förslag, ca 60 min):
-  0–5 min   : Intro till arrays + läsa/skriva värden
-  5–15 min  : Lägga till / ta bort: push, pop, shift, unshift, splice, slice
- 15–25 min  : Hitta & kontrollera: indexOf, includes, find, findIndex
- 25–40 min  : Transformera & filtrera: map, filter, reduce (+ some, every)
- 40–50 min  : Sortera & jämföra: sort (sträng vs nummer), reverse
- 50–60 min  : Kedjor, spridning (...), destrukturering, små uppgifter
-
- Tips under lektionen:
-  - Visa i konsolen vad som returneras OCH hur originalarrayen påverkas.
-  - Säg högt om metoden MUTERAR originalet (förändrar arrayen) eller ej.
-  - Jämför "imperativt" (for-loop) mot metod-baserat (map/filter).
-
- Användning: Kör filen i Node (node arrays.js) eller i devtools-konsolen.
-*/
-
-console.log("\n==============================");
-console.log("INTRO: Skapa och läsa från arrays");
-console.log("==============================\n");
 
 // En array är en samling värden i ordning
 const frukter = ["äpple", "banan", "citron"]; // [0, 1, 2]
